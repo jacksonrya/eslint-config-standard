@@ -1,6 +1,6 @@
 {
   "name": "@jacksonrya/eslint-config-standard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration preferred by Jackson Baker Ryan.",
   "main": "index.js",
   "scripts": {
