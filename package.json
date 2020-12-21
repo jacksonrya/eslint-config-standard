@@ -1,0 +1,34 @@
+{
+  "name": "@jacksonrya/eslint-config-standard",
+  "version": "1.0.0",
+  "description": "ESLint configuration preferred by Jackson Baker Ryan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonrya/eslint-config-standard.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Jackson Baker Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonrya/eslint-config-standard/issues"
+  },
+  "homepage": "https://github.com/jacksonrya/eslint-config-standard#readme",
+	"peerDependencies": {
+			"eslint": ">= 7"
+	},
+	"dependencies": {
+		"eslint-config-standard": "^16",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint-import-resolver-typescript": "^2.3.0"
+	}
+}
