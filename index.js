@@ -49,6 +49,6 @@ module.exports = {
 			'single',
 			'avoid-escape', 
 		],
-		indent: 'off',
+		indent: [ 2, 2 ],
 	},
 }
