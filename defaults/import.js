@@ -7,6 +7,15 @@ module.exports = {
 	settings: {
 		'import/core-modules': [ 'react', 'typeorm', 'express' ],
 		'import/extensions': [ 'js' ], 
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src'],
+          ['@/components', './src/components']
+        ],
+        extensions: ['.vue', '.js', 'json']
+      }
+    }
 	},
 	rules: {
 		'import/extensions': [ 0, 'never' ],
