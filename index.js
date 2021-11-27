@@ -4,7 +4,7 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
-		'@jacksonrya/eslint-config-standard/defaults/import'
+		'./defaults/import'
 	],
 	parserOptions: {
 		ecmaVersion: 12,
