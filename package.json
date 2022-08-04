@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/jacksonrya/eslint-config-standard#readme",
   "peerDependencies": {
-    "eslint": ">= 6.8.0",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
-    "@typescript-eslint/parser": "^5.32.0"
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": ">= 6.8.0"
   },
   "dependencies": {
     "eslint-config-standard": "^14.1.1",
